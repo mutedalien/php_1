@@ -1,0 +1,95 @@
+.table {
+  display: grid;
+  grid-template-columns: 1fr 2fr repeat(3, 1fr);
+  width: 1000px;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 400px;
+  margin-top: 50px;
+  border: solid 1px orangered;
+  padding: 5px;
+}
+
+.basket {
+  display: grid;
+  grid-template-columns: 1fr 2fr repeat(5, 1fr);
+  width: 1000px;
+}
+
+.head {
+  color: blue;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.detail__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+
+.danger {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+.add-order {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 0;
+}
+
+.success {
+  color: green;
+  margin-bottom: 0;
+}
+
+.products_row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.orders {
+  border: red solid 1px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.orders__detail {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.orders__detail-start {
+  background: #aaaaaa;
+}
+
+.orders__button-reject, .orders__detail-reject {
+  background: red;
+  color: white;
+}
+
+.orders__button-delivery, .orders__detail-delivery {
+  background: yellow;
+}
+
+.orders__button-success, .orders__detail-success {
+  background: green;
+  color: white;
+}
