@@ -6,7 +6,7 @@ $area = array ("Московская область:" => array ("Москва", 
 foreach ($area as $region => $cities) {
 	echo "<br>".$region." ";
 	foreach ($cities as $city) {
-		if (mb_substr($city,0,1) == "К") {
+		if (mb_substr($city,0,1) == "К") { //mb_substr - приводит к нужной кодировке. Далее берет город с нулевой позиции 1 символ
 			echo $city." ";
 		}
 	}
