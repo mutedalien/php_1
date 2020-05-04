@@ -1,0 +1,58 @@
+.admin-form, .admin-form div {
+    display: inline-block;
+}
+.admin-form input:not([type=submit]), .admin-form textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+.product {
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 8px;
+}
+.product .options {
+    float: right;
+}
+.product .name {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.feedback-form, .feedback-form div {
+    display: inline-block;
+}
+.feedback-form input[type=text], .feedback-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+.feedback-form input[type=submit], .feedback a {
+    float: right;
+}
+.feedback a {
+    margin: 0 3px;
+}
+.feedback div {
+    display: inline-block;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 5px;
+}
+.feedback span {
+    font-weight: bold;
+    margin-right: 8px;
+    margin-left: 4px;
+}
+.feedback p {
+    margin: 4px;
+}
+
+.thumbnail {
+    display: inline-block;
+    background-color: #d3d3d3;
+    margin: 4px;
+    padding: 5px;
+}
+.thumbnail p {
+    margin: 0px;
+}
